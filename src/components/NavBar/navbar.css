@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background:#C890F8; */
+    background:#0F011C;
 }
 
 /* .container {
@@ -14,14 +14,18 @@
 } */
 
 .navbar {
-    background:#C890F8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    background:#0F011C;
     min-width: 700px;
     width: 100%;
     display: flex;             
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #3f2a5e;
 }
 .desktopMenu {
     display: flex;
@@ -30,7 +34,7 @@
 }
   
 .desktopMenuItem {
-    background:#C890F8;
+    background:#0F011C;
     padding: 10px;
     margin: 10px;
     z-index: 20;
@@ -42,8 +46,9 @@
     text-shadow: 4px 3px 3px #1b365d;
 } 
 .desktopMenuItem:hover {
-    color: #000;
-    text-shadow: 4px 3px 3px #1b365d;
+    color: #F9B3D0;
+    text-shadow: 4px 3px 3px #36395A;
+    border-bottom:1px solid #F9B3D0;
 
 }
 .desktopMenuButton {

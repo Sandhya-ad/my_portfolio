@@ -1,0 +1,49 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60vh;
+    width: 100%;
+    color: #FDEDF3;
+    padding: 0 4rem;
+    gap: 2rem;
+
+}
+
+.introContent {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.hello {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.introText {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.introName {
+    color: #FEE8CD;
+}
+
+.introPara {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    max-width: 500px;
+}
+
+.bg {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    flex-shrink: 0;
+}
