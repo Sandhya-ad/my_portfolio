@@ -47,3 +47,27 @@
     display: block;
     flex-shrink: 0;
 }
+.randomFact{
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: 3rem;
+    color: #FEE8CD;
+    border: 1px solid #FDEDF3;
+
+    padding: 1rem;
+    border-radius: 10px;
+
+    /* max-width: 450px; */
+}
+
+.factButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #FEE8CD;
+    color: #0F011C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
