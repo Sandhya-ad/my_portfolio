@@ -2,12 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 60vh;
+    min-height: calc(100vh - 180px);
     width: 100%;
     color: #FDEDF3;
-    padding: 0 4rem;
+    padding: 0 3rem;
     gap: 2rem;
-
 }
 
 .introContent {
@@ -56,8 +55,6 @@
 
     padding: 1rem;
     border-radius: 10px;
-
-    /* max-width: 450px; */
 }
 
 .factButton {

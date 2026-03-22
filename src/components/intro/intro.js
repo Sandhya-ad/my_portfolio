@@ -24,16 +24,20 @@ const Intro = () => {
       <div className="introContent">
         <span className="hello">Hello</span>
         <span className="introText">
-          I'm <span className="introName">Sandhya</span>
+          I'm <span className="introName">Sandhya.</span>
           <br />
-          Blah blah
+          Software Developer
         </span>
         <p className="introPara">
-          I'm a 4th year Computer Science student. I love blah blah.
+          I'm a 4th year Computer Science student. I’m into building software, learning new things, and turning ideas into something real. Still learning, still improving, and enjoying the process.
         </p>
-        <span className ="randomFact">{fact && <>Random fact:{fact}</>}</span>
+        {fact && (
+            <span className="randomFact">
+                Random fact: {fact}
+            </span>
+            )}
         <button className="factButton" onClick={fetchRandomFact}>
-          {fact ? "Show Another Fact" :"Show Random Fact"}
+          {fact ? "Show Another Fact" :"Show Random Fact (Not about me :P)"}
         </button>
       </div>
 

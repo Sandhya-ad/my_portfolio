@@ -1,0 +1,63 @@
+#about {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FDEDF3;
+    text-align: center;
+    padding: 0rem 2rem;
+    overflow: hidden;
+}
+
+.aboutTitle {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    
+}
+
+.aboutText {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    max-width: 900px;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+.skillsTitle {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color:#F9B3D0
+}
+
+.skillsSlider {
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem 0;
+}
+
+.skillsTrack {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.3rem;
+    flex-shrink: 0;
+    margin-right: 2rem;
+}
+
+.skill img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    background: transparent;
+}
