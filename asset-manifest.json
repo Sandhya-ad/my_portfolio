@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.a0cb89aa.css",
-    "main.js": "/my_portfolio/static/js/main.4d4f3f51.js",
+    "main.css": "/my_portfolio/static/css/main.6c534f38.css",
+    "main.js": "/my_portfolio/static/js/main.bcf7a631.js",
+    "static/media/autoMarker.png": "/my_portfolio/static/media/autoMarker.49642fa296fdc24327fe.png",
     "static/media/profilePic.jpeg": "/my_portfolio/static/media/profilePic.3ea75e44b8b61485fd1c.jpeg",
+    "static/media/pmcol.png": "/my_portfolio/static/media/pmcol.41ddbbf4f0674e87d6c8.png",
+    "static/media/socialDistribution.png": "/my_portfolio/static/media/socialDistribution.a5b913834186739c9e8c.png",
     "static/media/docker.png": "/my_portfolio/static/media/docker.65247f61407ba77da5f4.png",
     "static/media/c.png": "/my_portfolio/static/media/c.43adb6b7d96b5718b158.png",
     "static/media/react.png": "/my_portfolio/static/media/react.dcfb009ed0e2f7633386.png",
@@ -12,11 +15,11 @@
     "static/media/python.png": "/my_portfolio/static/media/python.41b6ce76b957ae234744.png",
     "static/media/figma.png": "/my_portfolio/static/media/figma.02ad55a27ca3c9c7e12b.png",
     "index.html": "/my_portfolio/index.html",
-    "main.a0cb89aa.css.map": "/my_portfolio/static/css/main.a0cb89aa.css.map",
-    "main.4d4f3f51.js.map": "/my_portfolio/static/js/main.4d4f3f51.js.map"
+    "main.6c534f38.css.map": "/my_portfolio/static/css/main.6c534f38.css.map",
+    "main.bcf7a631.js.map": "/my_portfolio/static/js/main.bcf7a631.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0cb89aa.css",
-    "static/js/main.4d4f3f51.js"
+    "static/css/main.6c534f38.css",
+    "static/js/main.bcf7a631.js"
   ]
 }
