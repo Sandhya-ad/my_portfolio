@@ -2,6 +2,7 @@ import "./projects.css";
 import pmcol from "../../assets/pmcol.png";
 import autoMaker from "../../assets/autoMarker.png";
 import socialDistribution from "../../assets/socialDistribution.png";
+import duckiebot from "../../assets/duckieBot.png";
 import { useState } from "react";
 
 const Projects = () => {
@@ -37,6 +38,18 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "CMPUT 412 – Mobile Robotics",
+      image: duckiebot, // replace with your image later
+      short: "Worked on Duckiebots using ROS, including lane following, AprilTag detection, and navigation.",
+      description:
+  "Worked on mobile robotics using Duckiebots and ROS. Implemented features like lane following, AprilTag detection, and navigation using real-time camera input and sensor data. The projects focused on building reliable control systems and understanding how perception and movement work together in robotics. And documented the process and results in a detailed report.",
+      links: {
+        website:"https://sandhya-ad.github.io/412duckiebot/",
+      },
+      tech: "ROS, Python, OpenCV"
+    },
+    {
+      id: 4,
       title: "AutoMarker",
       image: autoMaker, // replace with your image later
       short: "Automatically grades MCQ PDFs.",
@@ -139,6 +152,16 @@ const Projects = () => {
                     className="btn" 
                   >
                     Video
+                  </a>
+                )}
+                {selectedProject.links.website && (
+                  <a
+                    href={selectedProject.links.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn" 
+                  >
+                    website
                   </a>
                 )}
               </div>
