@@ -11,6 +11,7 @@ import c from "../../assets/c.png";
 import git from "../../assets/git.png";
 import firebase from "../../assets/firebase.png";
 import figma from "../../assets/figma.png";
+import ros from "../../assets/ros.png";
 
 const skills = [
   { name: "React", icon: react },
@@ -23,6 +24,7 @@ const skills = [
   { name: "Git", icon: git },
   { name: "Firebase", icon: firebase },
   { name: "Figma", icon: figma },
+  { name: "ROS", icon: ros },
 ];
 
 const About = () => {
