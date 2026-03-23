@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar/navbar";
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
+import Projects from "./components/projects/projects";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,9 @@ function App() {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="projects">
+        <Projects />
       </section>
     </div>
   );

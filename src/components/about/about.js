@@ -1,5 +1,6 @@
 import "./about.css";
 import { useRef, useEffect } from "react";
+
 import react from "../../assets/react.png";
 import django from "../../assets/django.png";
 import js from "../../assets/js.png";
