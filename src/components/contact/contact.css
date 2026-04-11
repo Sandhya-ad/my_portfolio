@@ -1,0 +1,112 @@
+.contactOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(40, 20, 60, 0.45);
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 2rem;
+  }
+  
+  .contactPopup {
+    position: relative;
+    width: min(900px, 90%);
+    background: #fdf1f7;
+    border: 2px solid #f6d7eb;
+    border-radius: 28px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+    text-align: center;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #7a4e83;
+  }
+  
+  .contactTitle {
+    font-size: 2.6rem;
+    color: #7d4ca0;
+    margin-bottom: 0.6rem;
+  }
+  
+  .contactSubtitle {
+    font-size: 1.05rem;
+    color: #6f6177;
+    margin-bottom: 2.2rem;
+  }
+  
+  .contactCards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contactCard {
+    width: 280px;
+    background: #fff8fc;
+    border: 2px solid #eed3f3;
+    border-radius: 22px;
+    padding: 1.8rem 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 8px 24px rgba(150, 100, 180, 0.12);
+  }
+  
+  .contactCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(150, 100, 180, 0.2);
+  }
+  
+  .contactImage {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+  
+  .contactCard h3 {
+    font-size: 1.4rem;
+    color: #8a4fb0;
+    margin-bottom: 0.6rem;
+  }
+  
+  .contactCard p {
+    font-size: 0.98rem;
+    color: #5e5167;
+    margin-bottom: 0.7rem;
+    word-break: break-word;
+  }
+  
+  .contactCard span {
+    display: inline-block;
+    margin-top: 0.3rem;
+    font-size: 0.95rem;
+    color: #c06aa8;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contactPopup {
+      padding: 2.2rem 1.4rem;
+    }
+  
+    .contactTitle {
+      font-size: 2rem;
+    }
+  
+    .contactCard {
+      width: 100%;
+      max-width: 320px;
+    }
+  }
