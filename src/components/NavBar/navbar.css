@@ -22,7 +22,6 @@ body {
     z-index: 1000;
     
     background:#0F011C;
-    min-width: 700px;
     width: 100%;
     display: flex;             
     align-items: center;
@@ -104,3 +103,50 @@ body {
         /* border-radius: 50%; */
         object-fit: cover;
     }
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 16px 24px;
+  }
+
+  .desktopMenuItem {
+    font-size: 20px;
+    margin: 6px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+
+  .desktopMenu {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .desktopMenuItem {
+    font-size: 16px;
+    margin: 4px;
+    padding: 8px;
+  }
+
+  .desktopMenuButton {
+    height: 40px;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
+}

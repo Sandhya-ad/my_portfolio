@@ -1,12 +1,12 @@
 .intro {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     min-height: calc(100vh - 180px);
     width: 100%;
     color: #FDEDF3;
     padding: 0 3rem;
-    gap: 2rem;
+    gap: clamp(2rem, 5vw, 4rem);
     background:#0F011C;
 }
 
@@ -68,4 +68,65 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 2rem;
+  }
+
+  .introText {
+    font-size: 2.5rem;
+  }
+
+  .introPara {
+    font-size: 1.25rem;
+  }
+
+  .bg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1.25rem;
+    min-height: auto;
+  }
+
+  .introContent {
+    align-items: center;
+  }
+
+  .hello {
+    font-size: 1.3rem;
+  }
+
+  .introText {
+    font-size: 2rem;
+  }
+
+  .introPara {
+    font-size: 1.05rem;
+    max-width: 95%;
+  }
+
+  .bg {
+    width: 220px;
+    height: 220px;
+  }
+
+  .randomFact {
+    margin-top: 1.75rem;
+    font-size: 1rem;
+  }
+
+  .factButton {
+    width: 100%;
+    max-width: 320px;
+  }
 }
